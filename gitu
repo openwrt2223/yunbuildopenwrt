@@ -1,0 +1,4 @@
+git add .
+git commit -m "Update Repo"
+git push origin
+echo "Update Repo OK!"
