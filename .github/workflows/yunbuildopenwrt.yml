@@ -9,13 +9,13 @@ on:
         required: false
         default: 'false'
   push:
-    branches: [ main ]
+    branches: [ unlockboot ]
   pull_request:
-    branches: [ main ]
+    branches: [ unlockboot ]
 
 env:
   REPO_URL: https://github.com/openwrt2223/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: unlockboot
   OPENWRTSRC: openwrtsrc
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
